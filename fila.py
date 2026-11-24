@@ -14,6 +14,7 @@ Uso no computador (dentro da pasta publicacao/):
   python fila.py push       # commit + push e espera o GitHub Pages servir os arquivos novos
   python fila.py limpa      # apaga os arquivos dos posts já publicados (o registro fica)
   python fila.py marca ID --media-id X [--permalink URL]    # quando o post saiu à mão
+  python fila.py sincroniza windsor.json   # marca o que já está no ar (JSON de um get_data do Windsor)
 
 Uso pela rotina da nuvem:
   python3 fila.py devidos                 # JSON com os aprovados no horário (3 h atrás até 20 min à frente)
@@ -330,6 +331,37 @@ def cmd_resultado(a):
     print(f"{a.id}: {it['status']}")
 
 
+def _norm(txt):
+    return re.sub(r"\s+", " ", (txt or "")).strip()[:60].lower()
+
+
+def cmd_sincroniza(a):
+    """Marca como publicado o que já está no Instagram, comparando as legendas.
+
+    Recebe o JSON salvo de um get_data do Windsor (fields timestamp, media_id,
+    media_caption, media_permalink), seja a resposta inteira ou só a lista "data".
+    Itens aprovados ou publicando cujo horário passou há mais de 3 h sem post
+    correspondente viram "nao_saiu".
+    """
+    bruto = json.load(open(a.arquivo, encoding="utf-8"))
+    posts = bruto.get("data", bruto) if isinstance(bruto, dict) else bruto
+    por_legenda = {_norm(p.get("media_caption")): p for p in posts if p.get("media_caption")}
+    d = carrega()
+    t = agora()
+    for it in d["itens"]:
+        if it["status"] not in ("aprovado", "publicando", "erro"):
+            continue
+        p = por_legenda.get(_norm(it["legenda"]))
+        if p:
+            it.update(status="publicado", media_id=p.get("media_id"), permalink=p.get("media_permalink"),
+                      publicado_em=p.get("timestamp"), erro=None)
+            print(f"publicado: {it['id']} → {it['permalink']}")
+        elif (t - quando_de(it["quando"])).total_seconds() > 3 * 3600:
+            it["status"] = "nao_saiu"
+            print(f"NÃO SAIU: {it['id']} (era {quando_de(it['quando']):%d/%m %H:%M})")
+    salva(d)
+
+
 def main():
     p = argparse.ArgumentParser(description="Fila de publicação do @dobrando_chapa")
     s = p.add_subparsers(dest="cmd", required=True)
@@ -352,6 +384,7 @@ def main():
     g.add_argument("--ok", action="store_true"); g.add_argument("--erro")
     x.add_argument("--media-id"); x.add_argument("--permalink"); x.add_argument("--obs")
     x.set_defaults(f=cmd_resultado)
+    x = s.add_parser("sincroniza"); x.add_argument("arquivo"); x.set_defaults(f=cmd_sincroniza)
     a = p.parse_args()
     a.f(a)
 
