@@ -2,6 +2,30 @@
   "versao": 1,
   "itens": [
     {
+      "id": "2026-11-24_teste_trial_segmentos-matriz",
+      "quando": "2026-11-24T11:25:00-03:00",
+      "tipo": "trial",
+      "status": "aprovado",
+      "video": "m/2026-11-24_teste_trial_segmentos-matriz-d9e9c4/reel.mp4",
+      "capa": "m/2026-11-24_teste_trial_segmentos-matriz-d9e9c4/capa.jpg",
+      "story": null,
+      "legenda": "Segmento de matriz retificado e a dobra abriu só depois da emenda? O operador não errou.\n\nNa matriz segmentada, um segmento mais baixo deixa a chapa assentar mais baixo ali. Com o mesmo Y do punção, o ângulo abre só naquele trecho.\nReferência: 0,13 mm de diferença ≈ 0,9° no V16.\nO bombeamento curva a mesa inteira, não corrige um degrau. Meça cada segmento antes de montar e retifique o jogo inteiro junto.\n\nVocê já mediu os segmentos da sua matriz? Sim ou não?\n\n#dobradeira #matriz #dobradechapa #pressbrake #caldeiraria",
+      "comentario": "Conta de referência (dobra no ar a 90°): ângulo ≈ 2 × diferença de altura ÷ V. 0,13 mm no V16 ≈ 0,9°; no V32 ≈ 0,5°. Tabela do fabricante manda. Fonte: ADH Machine Tool (0,005\" entre segmentos já parece deflexão).",
+      "sugestao_story": "Quiz: \"A dobra abriu só depois da emenda da matriz. O que é?\" Opções: A) Bombeamento errado · B) Segmento mais baixo ✓ · C) Erro do operador",
+      "trial": {
+        "graduation_strategy": "MANUAL"
+      },
+      "origem": "posts/2026-11-27_12h00_segmentos-matriz",
+      "duracao_s": 35.6,
+      "criado_em": "2026-11-24T11:22:45-03:00",
+      "tentativas": 0,
+      "media_id": null,
+      "permalink": null,
+      "publicado_em": null,
+      "erro": null,
+      "obs": null
+    },
+    {
       "id": "2026-11-24_19h30_matriz-gasta",
       "quando": "2026-11-24T19:30:00-03:00",
       "tipo": "reel",
@@ -115,7 +139,7 @@
       "id": "2026-11-27_12h00_segmentos-matriz",
       "quando": "2026-11-27T12:00:00-03:00",
       "tipo": "reel",
-      "status": "aprovado",
+      "status": "cancelado",
       "video": "m/2026-11-27_12h00_segmentos-matriz-3bb8f8/reel.mp4",
       "capa": "m/2026-11-27_12h00_segmentos-matriz-3bb8f8/capa.jpg",
       "story": null,
