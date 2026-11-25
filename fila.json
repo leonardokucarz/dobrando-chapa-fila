@@ -31,8 +31,8 @@
       "quando": "2026-11-24T19:30:00-03:00",
       "tipo": "reel",
       "status": "publicado",
-      "video": "m/2026-11-24_19h30_matriz-gasta-ec5520/reel.mp4",
-      "capa": "m/2026-11-24_19h30_matriz-gasta-ec5520/capa.jpg",
+      "video": null,
+      "capa": null,
       "story": null,
       "legenda": "Matriz gasta no meio: o ângulo abre só no centro da peça longa.\nAnos de peça curta dobrada no meio da mesa fazem o ombro da matriz descer ali.\nA chapa assenta mais baixo e o punção, no mesmo Y, entra menos: cerca de 0,13 mm de desgaste ≈ 0,9° a mais no V16 (referência).\nCalço e bombeamento corrigem curva longa, não um trecho. Meça a altura da matriz no meio e nas pontas e recupere o trecho gasto.\nQuantos graus abre o meio das suas peças longas?\n\n#dobradeira #matriz #pressbrake #caldeiraria #chapametalica",
       "comentario": "Conta de referência (dobra no ar, 90°): ângulo ≈ 2 × desgaste ÷ V. 0,13 mm gasto → V12 ≈ 1,2° · V16 ≈ 0,9° · V20 ≈ 0,7°. Teste: régua sobre os ombros + altura medida no meio e nas pontas. Fonte: ADH Machine Tool (ferramenta gasta no centro; o bombeamento não corrige um trecho local).",
@@ -46,15 +46,16 @@
       "permalink": "https://www.instagram.com/reel/DgJB5TUGBPg/",
       "publicado_em": "2026-11-25T07:44:59-03:00",
       "erro": null,
-      "obs": "publicado pela rotina das 19h30; registro feito do PC (a rotina ainda não tem acesso ao GitHub)"
+      "obs": "publicado pela rotina das 19h30; registro feito do PC (a rotina ainda não tem acesso ao GitHub)",
+      "arquivos_apagados": "2026-11-25T12:43:27-03:00"
     },
     {
       "id": "2026-11-25_12h00_recorte-na-dobra",
       "quando": "2026-11-25T12:00:00-03:00",
       "tipo": "reel",
-      "status": "aprovado",
-      "video": "m/2026-11-25_12h00_recorte-na-dobra-dd176b/reel.mp4",
-      "capa": "m/2026-11-25_12h00_recorte-na-dobra-dd176b/capa.jpg",
+      "status": "publicado",
+      "video": null,
+      "capa": null,
       "story": null,
       "legenda": "Recorte terminando na linha de dobra: a dobra estufa junto do recorte, e o problema nasceu no desenho.\n\nAli a chapa fica sem apoio nos ombros da matriz e o raio estufa e ondula na borda do recorte.\nReferência: fundo do recorte a pelo menos metade da abertura do V (V20 → cerca de 10 mm da linha de dobra).\nOu leve o recorte além da dobra, como um alívio (≥ t + R).\nValores de referência para aço; a tabela do fabricante manda.\n\nVocê já recebeu desenho assim? Sim ou não?\nMande para quem projeta as peças aí.\n\n#dobradeira #chapametalica #projetomecanico #caldeiraria #dobradechapa",
       "comentario": "",
@@ -64,19 +65,20 @@
       "duracao_s": 26.5,
       "criado_em": "2026-11-24T10:28:46-03:00",
       "tentativas": 0,
-      "media_id": null,
-      "permalink": null,
-      "publicado_em": null,
+      "media_id": "18123525979980037",
+      "permalink": "https://www.instagram.com/reel/DgKzWquAwu_/",
+      "publicado_em": "2026-11-25T12:43:26-03:00",
       "erro": null,
-      "obs": null
+      "obs": null,
+      "arquivos_apagados": "2026-11-25T12:43:27-03:00"
     },
     {
       "id": "2026-11-25_19h30_canal-errado-multiv",
       "quando": "2026-11-25T19:30:00-03:00",
       "tipo": "reel",
       "status": "cancelado",
-      "video": "m/2026-11-25_19h30_canal-errado-multiv-65fb48/reel.mp4",
-      "capa": "m/2026-11-25_19h30_canal-errado-multiv-65fb48/capa.jpg",
+      "video": null,
+      "capa": null,
       "story": null,
       "legenda": "Aba caiu dentro do V da matriz multi V? Não foi o operador: foi o canal.\n\n▪️ Canal largo demais: a aba curta não alcança o ombro e escorrega (aba mínima ≈ 0,7 × V; o V50 pede cerca de 35 mm)\n▪️ Canal apertado demais: a aba apoia, mas a força dispara (aço 3 mm: V12 ≈ 50 t/m × V25 ≈ 24 t/m)\n▪️ Ponto de partida: V ≈ 8 × espessura (3 mm → V25) e conferir a aba no canal escolhido. Valores de referência: a tabela do ferramental manda\n\nQual canal você usaria pra chapa de 3 mm?\n\n#dobradeira #matrizmultiv #dobradechapa #pressbrake #caldeiraria",
       "comentario": "Referência, aço ≈ 450 MPa e chapa de 3 mm: V12 ≈ 50 t/m · V25 ≈ 24 t/m · V50 ≈ 12 t/m. Aba mínima ≈ 0,7 × V (V25 ≈ 17,5 mm; V50 ≈ 35 mm). Fontes: Durmapress e Wila (aço: V de 6 a 8 × t).",
@@ -90,15 +92,16 @@
       "permalink": null,
       "publicado_em": null,
       "erro": null,
-      "obs": null
+      "obs": null,
+      "arquivos_apagados": "2026-11-25T12:43:27-03:00"
     },
     {
       "id": "2026-11-25_19h30_cartola-bate-parte2",
       "quando": "2026-11-25T19:30:00-03:00",
       "tipo": "reel",
       "status": "cancelado",
-      "video": "m/2026-11-25_19h30_cartola-bate-parte2-8b6f16/reel.mp4",
-      "capa": "m/2026-11-25_19h30_cartola-bate-parte2-8b6f16/capa.jpg",
+      "video": null,
+      "capa": null,
       "story": null,
       "legenda": "Essa cartola bate ou não bate? Comenta antes de ver o final 👇\n\nTestamos no NiaBend uma cartola funda: paredes de 60 mm e topo de 50 mm. Com o punção reto, a terceira dobra encosta no punção. O Simular procura outra ordem e continua batendo.\n\nA saída é o punção concha, mas com a peça espelhada nessa dobra. Do jeito que estava, a parede ficava do lado errado do concha e batia. Espelhando, a parede entra na garganta do punção e a dobra vai até o fundo. Resolvido na tela, não na máquina.\n\nAí na sua dobradeira: você vira a peça no concha ou muda o desenho? Conta aí.\n\nExperimente o NiaBend completo por 30 dias grátis: niabend.com\n(para quem nunca assinou; cancele antes do fim e não paga nada) · Windows 10 ou 11\n\n#dobradeira #dobradechapa #caldeiraria #puncaoconcha #niabend",
       "comentario": "Medidas do teste, no estúdio do NiaBend: abas de 25 mm, paredes de 60 mm e topo de 50 mm, com matriz multi V no canal 16.\nPunção reto Euro 80°: a terceira dobra bate 9,5 mm, mesmo depois do Simular.\nPunção concha Euro 85°, do jeito que o Simular deixou: bate 14,9 mm (a parede fica do lado da espinha).\nConcha com a peça espelhada nessa dobra: a parede entra na garganta e a dobra fecha.\nNa subida do punção, o simulador ainda mostra a quina da parede tocando o nariz do concha. Como você tira essa peça aí?\nSão valores do simulador para esse ferramental; simule com o seu.",
@@ -112,7 +115,8 @@
       "permalink": null,
       "publicado_em": null,
       "erro": null,
-      "obs": null
+      "obs": null,
+      "arquivos_apagados": "2026-11-25T12:43:27-03:00"
     },
     {
       "id": "2026-11-25_19h30_sem-forca",
@@ -141,8 +145,8 @@
       "quando": "2026-11-26T12:00:00-03:00",
       "tipo": "reel",
       "status": "cancelado",
-      "video": "m/2026-11-26_12h00_caixa-presa-1b90ae/reel.mp4",
-      "capa": "m/2026-11-26_12h00_caixa-presa-1b90ae/capa.jpg",
+      "video": null,
+      "capa": null,
       "story": null,
       "legenda": "Caixa presa no punção da dobradeira? Faltou abertura na máquina.\n\nCom a máquina toda aberta, o espaço entre a ponta do punção e a matriz tem que ser maior que a altura da caixa.\nE o punção não pode encurtar: para caixa, a referência é cerca de 1,7 × a altura (Wila), senão as paredes batem.\nConta de referência: abertura ≥ ferramentas + punção + caixa + folga.\nQual a abertura da sua dobradeira, em mm?\n\n#dobradeira #caixametalica #pressbrake #caldeiraria #dobradechapa",
       "comentario": "Exemplo do vídeo: abertura 450 = matriz e base 100 + punção 170 + intermediário 100 → sobram 80 mm para uma caixa de 100 ✗. Caixa de 90 → punção ≈ 153 → sobram 97 mm ✓. Referências: Wila/TheFabricator (punção ≈ 1,7 × a profundidade da caixa) e Wilson Tool (abertura e curso). Confira os valores no manual da sua máquina.",
@@ -156,7 +160,8 @@
       "permalink": null,
       "publicado_em": null,
       "erro": null,
-      "obs": null
+      "obs": null,
+      "arquivos_apagados": "2026-11-25T12:43:27-03:00"
     },
     {
       "id": "2026-11-26_12h00_tres-materiais",
