@@ -30,7 +30,7 @@
       "id": "2026-11-24_19h30_matriz-gasta",
       "quando": "2026-11-24T19:30:00-03:00",
       "tipo": "reel",
-      "status": "aprovado",
+      "status": "publicado",
       "video": "m/2026-11-24_19h30_matriz-gasta-ec5520/reel.mp4",
       "capa": "m/2026-11-24_19h30_matriz-gasta-ec5520/capa.jpg",
       "story": null,
@@ -42,11 +42,11 @@
       "duracao_s": 37.4,
       "criado_em": "2026-11-24T10:28:45-03:00",
       "tentativas": 0,
-      "media_id": null,
-      "permalink": null,
-      "publicado_em": null,
+      "media_id": "17958616926320069",
+      "permalink": "https://www.instagram.com/reel/DgJB5TUGBPg/",
+      "publicado_em": "2026-11-25T07:44:59-03:00",
       "erro": null,
-      "obs": null
+      "obs": "publicado pela rotina das 19h30; registro feito do PC (a rotina ainda não tem acesso ao GitHub)"
     },
     {
       "id": "2026-11-25_12h00_recorte-na-dobra",
