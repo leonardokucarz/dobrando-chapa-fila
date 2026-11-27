@@ -232,7 +232,7 @@
     },
     {
       "id": "2026-11-27_12h00_canal-errado-multiv",
-      "quando": "2026-11-27T12:00:00-03:00",
+      "quando": "2026-11-27T19:30:00-03:00",
       "tipo": "reel",
       "status": "aprovado",
       "video": "m/2026-11-27_12h00_canal-errado-multiv-620a6d/reel.mp4",
@@ -250,11 +250,11 @@
       "permalink": null,
       "publicado_em": null,
       "erro": null,
-      "obs": null
+      "obs": "horário trocado em 27/11 11h3x a pedido do Leonardo (cartola 12h00, canal errado 19h30); o id manteve o horário antigo"
     },
     {
       "id": "2026-11-27_19h30_cartola-bate-parte2",
-      "quando": "2026-11-27T19:30:00-03:00",
+      "quando": "2026-11-27T12:00:00-03:00",
       "tipo": "reel",
       "status": "aprovado",
       "video": "m/2026-11-27_19h30_cartola-bate-parte2-6d535e/reel.mp4",
@@ -272,7 +272,7 @@
       "permalink": null,
       "publicado_em": null,
       "erro": null,
-      "obs": null
+      "obs": "horário trocado em 27/11 11h3x a pedido do Leonardo (cartola 12h00, canal errado 19h30); o id manteve o horário antigo"
     },
     {
       "id": "2026-11-28_12h00_caixa-presa",
