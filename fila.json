@@ -231,28 +231,6 @@
       "arquivos_apagados": "2026-11-24T11:25:33-03:00"
     },
     {
-      "id": "2026-11-27_12h00_canal-errado-multiv",
-      "quando": "2026-11-27T19:30:00-03:00",
-      "tipo": "reel",
-      "status": "aprovado",
-      "video": "m/2026-11-27_12h00_canal-errado-multiv-620a6d/reel.mp4",
-      "capa": "m/2026-11-27_12h00_canal-errado-multiv-620a6d/capa.jpg",
-      "story": null,
-      "legenda": "Aba caiu dentro do V da matriz multi V? Não foi o operador: foi o canal.\n\n▪️ Canal largo demais: a aba curta não alcança o ombro e escorrega (aba mínima ≈ 0,7 × V; o V50 pede cerca de 35 mm)\n▪️ Canal apertado demais: a aba apoia, mas a força dispara (aço 3 mm: V12 ≈ 50 t/m × V25 ≈ 24 t/m)\n▪️ Ponto de partida: V ≈ 8 × espessura (3 mm → V25) e conferir a aba no canal escolhido. Valores de referência: a tabela do ferramental manda\n\nQual canal você usaria pra chapa de 3 mm?\n\n#dobradeira #matrizmultiv #dobradechapa #pressbrake #caldeiraria",
-      "comentario": "Referência, aço ≈ 450 MPa e chapa de 3 mm: V12 ≈ 50 t/m · V25 ≈ 24 t/m · V50 ≈ 12 t/m. Aba mínima ≈ 0,7 × V (V25 ≈ 17,5 mm; V50 ≈ 35 mm). Fontes: Durmapress e Wila (aço: V de 6 a 8 × t).",
-      "sugestao_story": "Quiz: \"Chapa de 3 mm, aba de 19 mm. Qual canal da multi V?\" → V12 / V25 (certa) / V50",
-      "trial": null,
-      "origem": "posts/2026-11-27_12h00_canal-errado-multiv",
-      "duracao_s": 28.5,
-      "criado_em": "2026-11-25T08:24:04-03:00",
-      "tentativas": 0,
-      "media_id": null,
-      "permalink": null,
-      "publicado_em": null,
-      "erro": null,
-      "obs": "horário trocado em 27/11 11h3x a pedido do Leonardo (cartola 12h00, canal errado 19h30); o id manteve o horário antigo"
-    },
-    {
       "id": "2026-11-27_19h30_cartola-bate-parte2",
       "quando": "2026-11-27T12:00:00-03:00",
       "tipo": "reel",
@@ -275,6 +253,28 @@
       "obs": "horário trocado em 27/11 11h3x a pedido do Leonardo (cartola 12h00, canal errado 19h30); o id manteve o horário antigo"
     },
     {
+      "id": "2026-11-27_19h30_rebatida-fechou-demais",
+      "quando": "2026-11-27T19:30:00-03:00",
+      "tipo": "reel",
+      "status": "aprovado",
+      "video": "m/2026-11-27_19h30_rebatida-fechou-demais-f4a942/reel.mp4",
+      "capa": "m/2026-11-27_19h30_rebatida-fechou-demais-f4a942/capa.jpg",
+      "story": null,
+      "legenda": "Peça rebatida fechou mais do que a correção na dobradeira? O comando não errou a conta.\n\nA correção é calculada pra chapa plana. Na rebatida, a dobra já está formada e o material já deformou ali: a mesma correção fecha mais.\nSe a peça não assenta no mesmo ponto da primeira dobra, o punção pega do lado e ela passa bem mais.\nNa hora de rebater: menos correção, dobra no centro do V e medir a cada batida. Os ângulos do vídeo são exemplo.\n\nSua rebatida já passou do ângulo? Sim ou não?\n\n#dobradeira #dobradechapa #caldeiraria #pressbrake #metalurgica",
+      "comentario": "Na rebatida, vá chegando no ângulo: bata com menos correção, meça e repita. Os ângulos do vídeo (92° que virou 88,5°) são só exemplo; o quanto fecha a mais muda com o material, a espessura e o V.",
+      "sugestao_story": "Enquete: \"Sua rebatida já passou do ângulo?\". Opções: \"Já, várias vezes\" / \"Nunca\".",
+      "trial": null,
+      "origem": "posts/2026-11-27_19h30_rebatida-fechou-demais",
+      "duracao_s": 41.7,
+      "criado_em": "2026-11-27T13:24:13-03:00",
+      "tentativas": 0,
+      "media_id": null,
+      "permalink": null,
+      "publicado_em": null,
+      "erro": null,
+      "obs": null
+    },
+    {
       "id": "2026-11-28_12h00_caixa-presa",
       "quando": "2026-11-28T12:00:00-03:00",
       "tipo": "reel",
@@ -295,6 +295,28 @@
       "publicado_em": null,
       "erro": null,
       "obs": null
+    },
+    {
+      "id": "2026-11-27_12h00_canal-errado-multiv",
+      "quando": "2026-11-28T19:30:00-03:00",
+      "tipo": "reel",
+      "status": "aprovado",
+      "video": "m/2026-11-27_12h00_canal-errado-multiv-620a6d/reel.mp4",
+      "capa": "m/2026-11-27_12h00_canal-errado-multiv-620a6d/capa.jpg",
+      "story": null,
+      "legenda": "Aba caiu dentro do V da matriz multi V? Não foi o operador: foi o canal.\n\n▪️ Canal largo demais: a aba curta não alcança o ombro e escorrega (aba mínima ≈ 0,7 × V; o V50 pede cerca de 35 mm)\n▪️ Canal apertado demais: a aba apoia, mas a força dispara (aço 3 mm: V12 ≈ 50 t/m × V25 ≈ 24 t/m)\n▪️ Ponto de partida: V ≈ 8 × espessura (3 mm → V25) e conferir a aba no canal escolhido. Valores de referência: a tabela do ferramental manda\n\nQual canal você usaria pra chapa de 3 mm?\n\n#dobradeira #matrizmultiv #dobradechapa #pressbrake #caldeiraria",
+      "comentario": "Referência, aço ≈ 450 MPa e chapa de 3 mm: V12 ≈ 50 t/m · V25 ≈ 24 t/m · V50 ≈ 12 t/m. Aba mínima ≈ 0,7 × V (V25 ≈ 17,5 mm; V50 ≈ 35 mm). Fontes: Durmapress e Wila (aço: V de 6 a 8 × t).",
+      "sugestao_story": "Quiz: \"Chapa de 3 mm, aba de 19 mm. Qual canal da multi V?\" → V12 / V25 (certa) / V50",
+      "trial": null,
+      "origem": "posts/2026-11-27_12h00_canal-errado-multiv",
+      "duracao_s": 28.5,
+      "criado_em": "2026-11-25T08:24:04-03:00",
+      "tentativas": 0,
+      "media_id": null,
+      "permalink": null,
+      "publicado_em": null,
+      "erro": null,
+      "obs": "horário trocado em 27/11 11h3x a pedido do Leonardo (cartola 12h00, canal errado 19h30); o id manteve o horário antigo"
     }
   ]
 }
